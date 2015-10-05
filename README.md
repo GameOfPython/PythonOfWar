@@ -59,9 +59,7 @@ $ sudo apt-get install virtualenvwrapper
 $ source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
 ```
 
-
 > Create a new Virtualenv
-
 ```sh
 $ mkvirtualenv --python=/usr/bin/python3 NAME_VENV
 ```
