@@ -60,19 +60,19 @@ $ source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
 ```
 
 
->Create a new Virtualenv
+> Create a new Virtualenv
 
 ```sh
 $ mkvirtualenv --python=/usr/bin/python3 NAME_VENV
 ```
 
->Activate Virtualenv
+> Activate Virtualenv
 
 ```sh
 $ workon NAME_VENV
 ```
 
->Install pygame for python3 in Virtualenv
+> Install pygame for python3 in Virtualenv
 
 ```sh
 (NAME_VENV)$ sudo pip install hg+http://bitbucket.org/pygame/pygame
