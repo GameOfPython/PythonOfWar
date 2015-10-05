@@ -49,28 +49,28 @@ $ sudo apt-get install mercurial meld
 
 **Virtualenv/VirtualenvWrapper**
 
+***Installation***
 ```sh
 $ sudo apt-get install virtualenvwrapper
 ```
 
-
-> Note: Run the following command, only once
+> *Note: Run the following command, only once*
 ```sh
 $ source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
 ```
 
-> Create a new Virtualenv
+***Create a new Virtualenv***
 ```sh
 $ mkvirtualenv --python=/usr/bin/python3 NAME_VENV
 ```
 
-> Activate Virtualenv
+***Activate Virtualenv***
 
 ```sh
 $ workon NAME_VENV
 ```
 
-> Install pygame for python3 in Virtualenv
+***Install pygame for python3 in Virtualenv***
 
 ```sh
 (NAME_VENV)$ sudo pip install hg+http://bitbucket.org/pygame/pygame
